@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>GitHub Leaderboard</title>
+  <title>Target Pack Optimization Competition Leaderboard</title>
   <style>
     :root{--bg:#0f1724;--card:#0b1320;--muted:#94a3b8;--accent:#00bcd4;--accent-2:#6ee7b7}
     html,body{height:100%;margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial}
@@ -33,7 +33,7 @@
     <header>
       <div>
         <h1>Leaderboard</h1>
-        <div class="muted small">Displays leaderboard data from a table file in this repository</div>
+        <div class="muted small">Displays leaderboard data</div>
       </div>
     </header>
 
@@ -70,22 +70,12 @@
       </div>
     </div>
 
-    <div style="margin-top:12px;color:var(--muted);font-size:13px">
-      <div>How to use:</div>
-      <ol>
-        <li>Place this <code>index.html</code> in your repository (or GitHub Pages branch).</li>
-        <li>Configure the data source below (owner, repo, branch, path) or provide a raw URL with ?rawUrl=.</li>
-        <li>Leaderboard supports <code>.csv</code> or <code>.json</code> (array of objects with consistent keys).</li>
-      </ol>
-    </div>
-  </div>
-
   <script>
     // -------------------------- CONFIG --------------------------
     // Edit these defaults directly in the file or use ?owner=...&repo=... in the URL
     const CONFIG = {
-      owner: '',         // e.g. 'your-github-username'
-      repo: '',          // e.g. 'your-repo'
+      owner: 'ytyimin',         // e.g. 'your-github-username'
+      repo: 'packopt',          // e.g. 'your-repo'
       branch: 'main',    // e.g. 'main' or 'gh-pages'
       filePath: 'leaderboard.csv', // relative path in the repo
       // If you prefer, pass ?rawUrl=https://raw.githubusercontent.com/owner/repo/branch/path
@@ -251,3 +241,4 @@
   </script>
 </body>
 </html>
+
