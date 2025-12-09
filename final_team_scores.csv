@@ -1,9 +1,9 @@
 Team Name,Average Score,Status Code,Status Description
 chauhanhet,13797.9,0,Valid
-hooverbrendan,-1000000000.0,2,Missing Files
+hooverbrendan,-799999308.4,1,Constraint Violation
 koonerbalraj,-1000000000.0,2,Missing Files
 mayfieldzachary,-1000000000.0,2,Missing Files
-minarikkristof,-1000000000.0,2,Missing Files
-singjordan,-1000000000.0,2,Missing Files
-snidergriffin,-1000000000.0,2,Missing Files
-yangchufen,-1000000000.0,2,Missing Files
+minarikkristof,-899999683.7,1,Constraint Violation
+singjordan,-699998271.5,3,Code Crash
+snidergriffin,-899999228.3,1,Constraint Violation
+yangchufen,-899997738.4,1,Constraint Violation
