@@ -3,7 +3,7 @@ import os
 from scoring import compute_score
 
 # TODO: Change this to your team name
-MY_TEAM_NAME = "sample_submission"
+MY_TEAM_NAME = "hatch"
 
 SUBMISSIONS_ROOT = "submissions"
 
@@ -23,7 +23,7 @@ def evaluate_all_datasets(team_name):
         alloc_path = os.path.join(SUBMISSIONS_ROOT, team_name, f"dataset_{dataset_id}/box_allocations.csv")
 
         # TODO: Change the demand_path to the data you forecast for your experimentation
-        demand_path = f"datasets_2025/dataset{dataset_id}_year2025.csv"
+        demand_path = f"datasets_2025/demand{dataset_id}.csv"
 
         try:
             score = compute_score(inputs_path, config_path, alloc_path, demand_path)
@@ -41,3 +41,4 @@ def evaluate_all_datasets(team_name):
 
 if __name__ == '__main__':
     evaluate_all_datasets(team_name=MY_TEAM_NAME)
+
